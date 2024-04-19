@@ -1,0 +1,30 @@
+.eachHistoryElement {
+  border: 1px solid rgb(78, 78, 78);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.historyProduct {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(111, 111, 111);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dataColumn {
+  display: flex;
+  flex-direction: column;
+}
+.historyProductImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.dataRow {
+  display: flex;
+  padding: 8px;
+  font-weight: bold;
+  justify-content: space-between;
+}
